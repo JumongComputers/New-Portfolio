@@ -2,9 +2,11 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import riseImg from "@/public/rise.png";
+import ecommImg from "@/public/ecomm.png";
+import devhireImg from "@/public/devhire.png";
+
+
 
 export const links = [
   {
@@ -35,52 +37,53 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Completed The leaning of Html, Css and JavaScript",
+    location: "Rambey",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Within the space of a yar i worked on severa persona project which helped to perfect my skills on the rudiment of web development.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022 - 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Completed the Learning of React, Firebase and State managements",
+    location: "Self-Taught",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I built on my previous knowledge by learning React js, Redux, RTK, Context API, React Query, Typescript",
+      icon: React.createElement(FaReact),
+    
+    date: "2023- 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Internship and Skil improvement",
+    location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Worked on Production project meant for event ticketing, learnt Next js, Tailwind CSS, chakra MongoDB, Express",
+      icon: React.createElement(CgWorkAlt),
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Hotel Management",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a project manager and frotend developer on this project from Nov 2023 till now. Customers can book for hotel and the hotel staffs can also use the admin page.",
+    tags: [ "Next.js", "MongoDB", "Tailwind", "Mongo DB", "Framer Motion", "Express" ],
+    imageUrl: riseImg,
   },
   {
-    title: "rmtDev",
+    title: "Product page of an Ecommerce",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    tags: ["Javascript", "Css", "Html"],
+    imageUrl: ecommImg,
   },
   {
-    title: "Word Analytics",
+    title: "Dev Hire",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A public web app for built to allow propective client to hire software engineer and other tech professionals. It has features like filtering, sorting",
+    tags: ["React", "Java script", "Css"],
+    imageUrl: devhireImg,
   },
 ] as const;
 
@@ -94,14 +97,14 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
+  "Material UI",
+  "Chakra UI",
   "Prisma",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
+  "sequlize",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;

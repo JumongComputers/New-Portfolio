@@ -10,8 +10,8 @@ import { ThemeContextProvider } from "@/context/theme-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Ricardo | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  title: "Jeremiah | Portfolio",
+  description: "Jeremiah is a full-stack developer with over 2 years of experience.",
 };
 
 export default function RootLayout({

@@ -43,7 +43,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?fit=crop&w=368&h=368&q=100"
+              src="/j2.jpg"
               width="192"
               height="192"
               quality="95"
@@ -85,11 +85,11 @@ export default function Intro() {
         }}
         className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
       >
-        <span className="font-bold">Hello, I'm Ricardo.</span> I'm a{" "}
+        <span className="font-bold">Hello, I'm Jeremiah.</span> I'm a{" "}
         <span className="font-bold">full-stack developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
+        <span className="font-bold">over 2 years</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        <span className="underline">React (Next.js), Node js, Express js, Nest js, SQL</span>.
       </motion.p>
 
       <motion.div
@@ -108,7 +108,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white outline-none transition hover:scale-110 hover:bg-gray-950 focus:scale-110 focus:bg-gray-950 active:scale-105"
+          className="group flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white outline-none transition hover:scale-110 hover:bg-gray-950 focus:scale-110 focus:bg-gray-950 active:scale-105 "
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
@@ -118,23 +118,30 @@ export default function Intro() {
           <BsArrowRight className="opacity-70 transition group-hover:translate-x-1" />
         </Link>
         <a
-          href="/CV.pdf"
-          download
+          href="https://docs.google.com/document/d/129PBVnF62vju-2YlJ27TWz-RDBCS3SFx-DPzYDz1txU/edit?usp=sharing"
+          target="_blank"
           className="group flex items-center gap-2 rounded-full border border-black/10 bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
         >
-          Download CV
-          <HiDownload className="opacity-60 transition group-hover:translate-y-1" />
+          View CV
+          {/* <HiDownload className="opacity-60 transition group-hover:translate-y-1" /> */}
         </a>
 
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/jeremiah-toluwase-80b120279/"
           target="_blank"
           className="flex items-center rounded-full border border-black/10 bg-white p-4 text-gray-700 outline-none transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] focus:text-gray-950 active:scale-105 dark:bg-white/10 dark:text-white/60"
         >
           <BsLinkedin />
         </a>
         <a
-          href="https://github.com"
+          href="https://github.com/JumongComputers"
+          target="_blank"
+          className="flex items-center rounded-full border border-black/10 bg-white p-4 text-[1.35rem] text-gray-700 outline-none transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] focus:text-gray-950 active:scale-105 dark:bg-white/10 dark:text-white/60"
+        >
+          <FaGithubSquare />
+        </a>
+        <a
+          href="https://github.com/ogbeni54"
           target="_blank"
           className="flex items-center rounded-full border border-black/10 bg-white p-4 text-[1.35rem] text-gray-700 outline-none transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] focus:text-gray-950 active:scale-105 dark:bg-white/10 dark:text-white/60"
         >
