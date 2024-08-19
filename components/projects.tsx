@@ -22,7 +22,9 @@ export default function Projects() {
       <div className="m-auto mt-8">
         {projectsData.map((project, index) => (
           <React.Fragment key={index}>
+            <a href={project.url} target="_blank" rel="noopener noreferrer">
             <Project {...project} index={index} />
+            </a>
           </React.Fragment>
         ))}
       </div>

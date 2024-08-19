@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import riseImg from "@/public/rise.png";
+import riseImg from "/public/rise.png";
 import ecommImg from "@/public/ecomm.png";
 import devhireImg from "@/public/devhire.png";
 import { url } from "inspector";
