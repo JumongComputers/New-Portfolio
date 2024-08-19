@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import riseImg from "@/public/rise.png";
 import ecommImg from "@/public/ecomm.png";
 import devhireImg from "@/public/devhire.png";
+import { url } from "inspector";
 
 
 
@@ -70,6 +71,7 @@ export const projectsData = [
       "I worked as a project manager and frotend developer on this project from Nov 2023 till now. Customers can book for hotel and the hotel staffs can also use the admin page.",
     tags: [ "Next.js", "MongoDB", "Tailwind", "Mongo DB", "Framer Motion", "Express" ],
     imageUrl: riseImg,
+    url: "https://rise-hotel-management.vercel.app/",
   },
   {
     title: "Product page of an Ecommerce",
@@ -77,6 +79,7 @@ export const projectsData = [
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
     tags: ["Javascript", "Css", "Html"],
     imageUrl: ecommImg,
+    url: "https://ecommerce-project-jumong.vercel.app/",
   },
   {
     title: "Dev Hire",
@@ -84,6 +87,7 @@ export const projectsData = [
       "A public web app for built to allow propective client to hire software engineer and other tech professionals. It has features like filtering, sorting",
     tags: ["React", "Java script", "Css"],
     imageUrl: devhireImg,
+    url: "https://devhire-jumong.vercel.app/",
   },
 ] as const;
 
